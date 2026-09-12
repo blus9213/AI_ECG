@@ -1,0 +1,2 @@
+python train.py --cache data\ptbxl\cache_100hz_fixed.npy --fs 100 --seq-len 1000 --patch 4 --batch-size 128 --amp bf16 --workers 4 --no-pin --w-amp 0.3 --out checkpoints_amp
+run this

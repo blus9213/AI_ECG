@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+ecg_env/
+venv/
+.env
+
+# Model checkpoints
+checkpoints/
+checkpoints_amp/
+checkpoints_fixed/
+
+# Generated plots
+plots/
+plots_amp/
+plots_base/
+plots_compare/
+
+# Data
+data/
+
+# Python cache
+.cache/
+*.cache
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
